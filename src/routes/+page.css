@@ -1,0 +1,54 @@
+:root {
+    --primary-bg-color: hsl(217, 19%, 24%);
+    --primary-color: hsl(150, 100%, 66%);
+  }
+
+  .body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vb;
+  }
+  p{
+    margin: 15px;
+  }
+  .advice-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    padding: 30px;
+    background-color: var(--primary-bg-color);
+    margin: auto;
+    color: white;
+    font-family: "Itim", cursive;
+    font-family: "Manrope", sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .advice-id {
+    color: hsl(150, 100%, 66%);
+    font-size: smaller;
+  }
+
+  .advice {
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+  }
+ 
+  .new-advice{
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    height: 70px;
+    width: 70px;
+    background-color:hsl(150, 100%, 66%);
+    border: 0px;
+    }
+
+    .dice{
+      margin: auto;
+    }
