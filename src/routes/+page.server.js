@@ -1,9 +1,9 @@
 
-export async function getadvice() {
-  const response = await fetch("https://api.adviceslip.com/advice");
-  const advicedata = await response.json();
-  return advicedata.slip;
-};
+// export async function getadvice() {
+//   const response = await fetch("https://api.adviceslip.com/advice");
+//   const advicedata = await response.json();
+//   return advicedata.slip;
+// };
 
 import { XMLParser } from 'fast-xml-parser';
 
@@ -19,8 +19,8 @@ export const load = async () => {
     const rawXml = await parseXml(response).rss.channel.item;
     return rawXml;
 };
-export async function getNewAdvice() {
-  const response = await fetch("https://api.adviceslip.com/advice");
-  const advicedata = await response.json();
-  return advicedata.slip;
-};
+// export async function getNewAdvice() {
+//   const response = await fetch("https://api.adviceslip.com/advice");
+//   const advicedata = await response.json();
+//   return advicedata.slip;
+// };
