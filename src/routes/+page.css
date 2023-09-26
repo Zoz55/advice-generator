@@ -5,17 +5,16 @@
 
   .body {
     display: flex;
-    justify-content: center;
-    align-content: center;
     height: 100vb;
   }
   p{
-    margin: 15px;
+    margin: 15px 0;
   }
   .advice-container {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    justify-content: center;
+    align-content: center;
     height: fit-content;
     padding: 30px;
     background-color: var(--primary-bg-color);
@@ -27,6 +26,8 @@
     justify-content: space-evenly;
     position: relative;
     border-radius: 10px;
+    width: 440px;
+
   }
 
   .advice-id {
@@ -49,6 +50,22 @@
     border: 0px;
     }
 
+    .new-advice:hover{
+      
+      box-shadow: 0px 0px 50px rgba(82, 255, 168, 1);
+      cursor: pointer;
+
+    }
+
     .dice{
       margin: auto;
+    }
+
+
+
+    @media screen and (max-width:499px) {
+      .advice-container{
+        width: 335px;
+        padding: 20px;
+      }
     }
