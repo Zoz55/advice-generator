@@ -31,7 +31,7 @@
   }
 
   .advice-id {
-    color: hsl(150, 100%, 66%);
+    color:var(--primary-color);
     font-size: smaller;
   }
 
@@ -46,13 +46,13 @@
     bottom: -25px;
     height: 70px;
     width: 70px;
-    background-color:hsl(150, 100%, 66%);
+    background-color:var(--primary-color);
     border: 0px;
     }
 
     .new-advice:hover{
       
-      box-shadow: 0px 0px 50px rgba(82, 255, 168, 1);
+      box-shadow: 0px 0px 50px var(--primary-color);
       cursor: pointer;
 
     }
